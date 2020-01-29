@@ -1,0 +1,116 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("http://www.kitchen-market.co.il/wp-content/uploads/2016/12/DSC04581.jpg");
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #621708;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #F6AA1C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background: #F6AA1C;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DD660B;
+  color: #621708;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+form.example input[type=text] {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 55%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  width: 70px;
+  height: 42px;
+  /*padding: 10px;*/
+  background: #621708;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #941B0C;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.search-text {
+  text-align: center;
+  color: #F6AA1C;
+}

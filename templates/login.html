@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='contact_us.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='login.css')}}">
+  <title>login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="/" style="color: #621708;">Home</a></li>
+        <li><a href="/search" style="color: #F6AA1C;">Search</a></li>
+        <li><a href="/contact" style="color: #F6AA1C;">Contact</a></li>
+    </ul>
+<h3 style="color: #F6AA1C">Login</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname" style="color: #F6AA1C">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname" style="color: #F6AA1C">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country" style="color: #F6AA1C">Country</label>
+    <input type="text" id="Country" name="country" placeholder="Your country..">
+
+    <label for="city" style="color: #F6AA1C">City</label>
+    <input type="text" id="City" name="city" placeholder="Your city..">
+
+    <label for="address" style="color: #F6AA1C">Address</label>
+    <input type="text" id="Address" name="address" placeholder="Your address..">
+
+    <label for="email" style="color: #F6AA1C">Email</label>
+    <input type="text" id="mail" name="email" placeholder="Your email..">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

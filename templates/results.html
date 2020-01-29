@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results page</title>
+</head>
+<style>
+	body {
+  		background: #941B0C;
+	}
+	.r_list {
+		/*color: #DD660B;*/
+		font-size: 30px;
+		text-align: center;
+	}
+	h1 {
+		color: #F6AA1C;
+		text-align: center;
+		font-size: 50px;
+	}
+</style>
+<body>
+	<h1><br></h1>
+	<h1>This is a list of restaurants</h1>
+	<h1>that sell the food you</h1>
+	<h1>searched for!</h1>
+<div class="r_list">
+{% for r in food %}
+{{r.Name}}<br>
+{% endfor %}
+	<h1>They are open on Saturdays!!</h1>
+</div>
+</body>
+</html>

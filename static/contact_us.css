@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("http://www.kitchen-market.co.il/wp-content/uploads/2016/12/DSC04581.jpg");
+}
+* {
+	box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: #DD660B;
+  color: #F6AA1C;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: #DD660B;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #621708;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #941B0C;
+  padding: 20px;
+}
+
